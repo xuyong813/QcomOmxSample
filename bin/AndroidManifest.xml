@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qcom.iomx.sample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application
+        android:clearTaskOnLaunch="true"
+        android:icon="@drawable/qcom"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.qcom.iomx.sample.ActivityLauncher"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <!--  定义  MAIN 动作 -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- 必须指定这个category，否则无法启动该Activity -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.ActivityMenuSelector"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.capture.ActivityLoopback"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.capture.ActivityCapture"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.capture.ActivityCameraToH264"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.capture.ActivityCameraToYuv"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.display.ActivityDecodeAndDisplay"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.display.ActivityH264Decoder"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.display.ActivityYuvOrRgbViewer"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.display.ActivityH264Viewer"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.capture.MyFileManager"
+            android:label="@string/title_activity_my_file_manager" >
+        </activity>
+        <activity
+            android:name="com.qcom.iomx.sample.display.ActivityExtraction"
+            android:label="@string/title_activity_activity_extraction" >
+        </activity>
+    </application>
+
+</manifest>

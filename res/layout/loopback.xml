@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="#aaaaaa" android:orientation="vertical" android:gravity="center_horizontal">
+    <FrameLayout android:id="@+id/frameLayout1" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1" android:layout_gravity="center_horizontal" android:foregroundGravity="center_vertical|center_horizontal" android:layout_margin="10px">
+        <SurfaceView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/surfaceOutputView"></SurfaceView>
+        <SurfaceView android:id="@+id/viewCameraPreview" android:padding="4px" android:layout_height="120px" android:layout_width="160px"></SurfaceView>
+    </FrameLayout>
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/buttonRecordFrames" android:textStyle="bold" android:textSize="12pt" android:typeface="sans" android:text="@string/actionStartCamera" android:enabled="false"></Button>
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:textColor="#ffff00" android:textStyle="bold" android:background="#444444" android:padding="4px" android:textSize="10pt" android:shadowColor="#000000" android:shadowDx="1.5" android:shadowDy="-1.5" android:id="@+id/tvCameraStatus" android:text="@string/textViewStatusIdle"></TextView>
+</LinearLayout>

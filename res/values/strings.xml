@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Qcom iOMX Cam Test</string>
+    <string name="launchCamera">Launch Camera</string>
+    <string name="textViewStatusIdle">Idle</string>
+    <string name="textViewStatusRecording">Recording Frames...</string>
+    <string name="actionRecordFrames">Record Frames</string>
+    <string name="actionStopRecordingFrames">Stop Recording</string>
+    <string name="actionSetPreviewSize">Camera Resolution: 320 x 240</string>
+    <string name="selectMenuItem">Select Menu Item</string>
+    <string name="h264Viewer">h.264 Viewer</string>
+    <string name="yuvViewer">YUV Viewer</string>
+    <string name="exit">Exit App</string>
+    <string name="actionStartCamera">Start Camera</string>
+    <string name="h264toYuvDecode">Decode h264 to YUV</string>
+    <string name="h264toRgbDecode">Decode h264 to RGB</string>
+    <string name="capture">Capture</string>
+    <string name="display">Decode and Display</string>
+    <string name="cameraToH264">Launch Camera to h.264</string>
+    <string name="cameraToYuv">Launch Camera To Yuv</string>
+    <string name="openYuv">Open YUV File</string>
+    <string name="openRgb">Open RGB File</string>
+    <string name="headerH264ToYuv">h.264 to YUV Decoder</string>
+    <string name="headerH264ToRgb">h.264 to RGB Decoder</string>
+    <string name="decodeFile">Decode File</string>
+    <string name="rgbViewer">RGB Viewer</string>
+    <string name="title_activity_my_file_manager">MyFileManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_extraction">ActivityExtraction</string>
+
+</resources>

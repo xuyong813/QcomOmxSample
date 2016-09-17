@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:orientation="vertical" 
+	android:layout_height="fill_parent" android:layout_gravity="center_horizontal">	
+	    <com.qcom.iomx.sample.display.VideoDisplayView 
+	    	android:layout_gravity="center_vertical|center_horizontal" 
+	    	android:id="@+id/surfaceOutputView" 
+	    	android:layout_height="fill_parent" 
+	    	android:layout_width="fill_parent"/>
+</LinearLayout>

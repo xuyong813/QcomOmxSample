@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:orientation="vertical" 
+	android:layout_height="fill_parent" android:layout_gravity="center_horizontal">	
+	    <SurfaceView 
+	    	android:layout_gravity="center_vertical|center_horizontal" 
+	    	android:id="@+id/surfaceOutputView" 
+	    	android:layout_height="fill_parent" 
+	    	android:layout_width="fill_parent" android:layout_weight="01"/>
+<!-- 
+	    <TextView android:text="TextView" 
+	    			android:id="@+id/textViewViewerStatus" 
+	    			android:layout_width="fill_parent" 
+	    			android:layout_height="wrap_content" 
+	    			android:padding="4px" 
+	    			android:textStyle="bold" 
+	    			android:textSize="6pt" 
+	    			android:background="#006600"></TextView>
+ -->
+
+ </LinearLayout>

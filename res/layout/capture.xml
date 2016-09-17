@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+android:gravity="center_vertical" 
+android:background="#222222" 
+android:layout_gravity="center_vertical|center_horizontal" 
+android:layout_height="fill_parent" 
+android:layout_width="fill_parent"
+ android:orientation="vertical" 
+ xmlns:android="http://schemas.android.com/apk/res/android">
+  <Button android:layout_gravity="center_horizontal"
+       android:layout_height="wrap_content" 
+       android:layout_width="fill_parent" 
+       android:id="@+id/buttonSetPreviewSize" 
+       android:text="@string/actionSetPreviewSize"/> 
+       <Button android:layout_height="wrap_content" 
+           android:layout_width="match_parent" 
+           android:id="@+id/buttonAddWatermark" 
+           android:text="Add Watermark"/> 
+           <Button android:layout_gravity="center_vertical|center_horizontal" 
+               android:layout_height="wrap_content" 
+               android:layout_width="fill_parent" 
+               android:id="@+id/buttonCameraToH264" 
+               android:text="@string/cameraToH264" 
+               android:clickable="true"/>
+
+           <Button
+               android:id="@+id/buttonCameraToYuv"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="to yuv" 
+               android:clickable="true"/>
+ 
+               </LinearLayout>

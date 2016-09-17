@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//jni/QcomOmxPublicInterface.h=UTF-8
+encoding//jni/ndkOmxEncodeDecode.cpp=UTF-8
+encoding//src/com/qcom/iomx/sample/ActivityLauncher.java=UTF-8
+encoding//src/com/qcom/iomx/sample/ActivityMenuSelector.java=UTF-8
+encoding//src/com/qcom/iomx/sample/capture/ActivityCameraToH264.java=UTF-8
+encoding//src/com/qcom/iomx/sample/capture/ActivityCameraToYuv.java=UTF-8
+encoding//src/com/qcom/iomx/sample/display/ActivityH264Decoder.java=UTF-8
+encoding//src/com/qcom/iomx/sample/display/VideoDisplayView.java=UTF-8
